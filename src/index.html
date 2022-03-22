@@ -12,7 +12,8 @@
   </head>
   <body>
 
-    <form action="http://localhost:8080.api/" method="post">
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+
       <fieldset class="fieldset">
         <legend>Personal information</legend>
         
@@ -40,7 +41,7 @@
           How old are You?:
           <input 
             type="number" 
-            name="old" 
+            name="age" 
             value="12"
             min="1"
             max="100"
@@ -133,6 +134,7 @@
           <input 
           type="time" 
           name="time"
+          step="2"
           required
           >
         </label>
